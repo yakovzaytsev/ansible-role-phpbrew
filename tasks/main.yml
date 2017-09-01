@@ -1,0 +1,22 @@
+---
+# tasks file for php
+- name: make sure required packages are installed
+  apt:
+    name: "{{item}}"
+    state: latest
+    update_cache: yes
+  with_items:
+    - composer
+    - git
+    - php-curl
+    - php-dom
+    - php-fpm
+    - php-gd
+    - php-intl
+    - php-mbstring
+    - php-mcrypt 
+    - php-simplexml
+    - php-xml
+    - php-xsl
+    - php-zip
+
