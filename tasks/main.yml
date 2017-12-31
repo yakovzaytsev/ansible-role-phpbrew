@@ -28,3 +28,10 @@
     - libmhash2 
     - libxslt1-dev
 
+- get_url:
+    url: https://github.com/phpbrew/phpbrew/raw/master/phpbrew
+    dest: /usr/local/bin/phpbrew
+    mode: 0755
+
+  
+  
